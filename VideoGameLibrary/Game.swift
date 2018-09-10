@@ -14,8 +14,6 @@ class Game {
     var dueDate: Date? = nil
     
     init (title: String){
-        self.checkedIn = checkedIn
         self.title = title
-        self.dueDate = dueDate
     }
 }
