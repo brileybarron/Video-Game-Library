@@ -8,12 +8,14 @@
 
 import Foundation
 
-class Game {
+class Game {//this will be the object every game created is
+
     var checkedIn: Bool = true
     let title: String
     var dueDate: Date? = nil
-    
-    init (title: String){
+    let ESRB : ESRBRating
+    init (title: String, ESRB: ESRBRating){
         self.title = title
+        self.ESRB = ESRB
     }
 }

@@ -10,6 +10,8 @@
 		3B1816742146E37E000190CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1816732146E37E000190CA /* main.swift */; };
 		3B18167B2146E996000190CA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B18167A2146E996000190CA /* Game.swift */; };
 		3B18169821482F49000190CA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B18169721482F49000190CA /* Menu.swift */; };
+		3B1816C0214AD2D8000190CA /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1816BF214AD2D8000190CA /* Library.swift */; };
+		3B1816C2214ADD76000190CA /* ESRBRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1816C1214ADD76000190CA /* ESRBRating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		3B1816732146E37E000190CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3B18167A2146E996000190CA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		3B18169721482F49000190CA /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3B1816BF214AD2D8000190CA /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		3B1816C1214ADD76000190CA /* ESRBRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESRBRating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				3B1816732146E37E000190CA /* main.swift */,
 				3B18167A2146E996000190CA /* Game.swift */,
 				3B18169721482F49000190CA /* Menu.swift */,
+				3B1816BF214AD2D8000190CA /* Library.swift */,
+				3B1816C1214ADD76000190CA /* ESRBRating.swift */,
 			);
 			path = VideoGameLibrary;
 			sourceTree = "<group>";
@@ -127,7 +133,9 @@
 			files = (
 				3B18169821482F49000190CA /* Menu.swift in Sources */,
 				3B1816742146E37E000190CA /* main.swift in Sources */,
+				3B1816C2214ADD76000190CA /* ESRBRating.swift in Sources */,
 				3B18167B2146E996000190CA /* Game.swift in Sources */,
+				3B1816C0214AD2D8000190CA /* Library.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
